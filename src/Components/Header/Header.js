@@ -6,7 +6,7 @@ import { AiOutlineTwitter, AiFillYoutube, AiFillLinkedin, AiOutlineInstagram } f
 const Header = () => {
 
     return (
-        <header className='flex flex-col md:flex-row gap-6 min-h-[83vh] justify-between items-center bg-[url("https://i.ibb.co/RpfC2LN/486-4862161-world-dot-map-png-png-download-world-map-removebg-preview.png")] bg-cover bg-no-repeat bg-opacity-5 relative'>
+        <header className='flex flex-col md:flex-row gap-6 min-h-[83vh] justify-between items-center bg-[url("https://i.ibb.co/RpfC2LN/486-4862161-world-dot-map-png-png-download-world-map-removebg-preview.png")] bg-cover bg-no-repeat bg-opacity-5 relative px-8 md:px-16'>
             <div className='md:w-2/5'>
                 <div className='text-center md:text-left'>
                     <h2 className='text-3xl md:text-5xl font-semibold leading-[1.2]' >Vehicle Maintenance <br /> From The Comfort of <br /> Your Home</h2>

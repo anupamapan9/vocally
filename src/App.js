@@ -1,11 +1,13 @@
 import Header from "./Components/Header/Header";
 import Nav from "./Components/Nav/Nav";
+import TimeSave from "./Components/TimeSave/TimeSave";
 
 function App() {
   return (
-    <div className="px-8 md:px-16">
+    <div >
       <Nav />
       <Header />
+      <TimeSave />
     </div>
   );
 }
