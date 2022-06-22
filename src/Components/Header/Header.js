@@ -16,8 +16,8 @@ const Header = () => {
                 name,
                 email
             }
-            fetch('http://localhost:5000/users', {
-                method: 'POST', // or 'PUT'
+            fetch('https://vast-stream-03374.herokuapp.com/users', {
+                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
@@ -27,13 +27,14 @@ const Header = () => {
                 .then(result => {
                     if (result?.acknowledged) {
                         toast.success("Data Recorded!! Thanks")
+                        reset()
                     }
                     else {
                         toast.error('Ops!! Some error happens')
                     }
                 })
         }
-        reset()
+
     };
     return (
         <header className='flex flex-col lg:flex-row gap-6 min-h-[83vh] justify-between items-center bg-[url("https://i.ibb.co/RpfC2LN/486-4862161-world-dot-map-png-png-download-world-map-removebg-preview.png")] lg:bg-cover bg-contain bg-no-repeat bg-opacity-5 relative px-8 lg:px-16'>
