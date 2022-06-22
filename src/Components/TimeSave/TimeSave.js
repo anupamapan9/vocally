@@ -5,7 +5,7 @@ const TimeSave = () => {
     return (
         <section className='bg-[#151a23] grid grid-cols-1 md:grid-cols-2 py-16 items-center px-8 md:px-24 scroll-smooth' id='time'>
             <div>
-                <img src={Mobile} alt="" className='w-4/5' />
+                <img src={Mobile} alt="" className='md:w-4/5' />
             </div>
             <div>
                 <div className='text-center md:text-justify'>

@@ -1,10 +1,36 @@
-# Getting Started with Create React App
+# Open Auto (task for vocally.ca)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This a simple landing page with interactive form.
 
-## Available Scripts
+## Technology used:-
 
-In the project directory, you can run:
+
+### Front End--
+- React JS
+- React Hook Form
+- Tailwind
+- daisy Ui (for theme)
+- React Icon
+- React Toastify 
+
+### Backend--
+
+- express js 
+- nodejs
+- mongodb
+- Cors
+
+
+## Live Link 
+[https://frabjous-selkie-cb8426.netlify.app/](https://frabjous-selkie-cb8426.netlify.app/)
+
+
+## FrontEnd code
+[https://github.com/anupamapan9/vocally](https://github.com/anupamapan9/vocally)
+
+
+## BackEnd Code
+[https://github.com/anupamapan9/open-auto](https://github.com/anupamapan9/open-auto)
 
 ### `npm start`
 
