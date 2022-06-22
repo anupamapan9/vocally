@@ -29,9 +29,7 @@ const Header = () => {
                     <span className='pl-5 hover:text-secondary duration-500 cursor-pointer'><AiFillYoutube /></span>
                     <span className='pl-5 hover:text-secondary duration-500 cursor-pointer'>< AiFillLinkedin /></span>
                     <span className='pl-5 hover:text-secondary duration-500 cursor-pointer'><AiOutlineInstagram /></span>
-
                 </div>
-                <div></div>
             </div>
             <div className="absolute bottom-5 right-[50%] hover:-rotate-180 duration-500">
                 <a href="#time"> <img src={Arrow} alt="" /></a>
